@@ -4,6 +4,17 @@ amRaspiMJPEG
 amRaspiMJPEG
 
 
+This is a copy taken from silvanmelchior userland library
+https://github.com/silvanmelchior/userland/tree/master/host_applications/linux/apps/raspicam
+and
+
+This is the amraspimjpeg app only.
+
+Run:
+./amraspimjpeg 
+
+You will need:
+- fairly new rpi/userland (Oct 2014)
 
 setup
 
