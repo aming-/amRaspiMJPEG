@@ -14,7 +14,7 @@ https://github.com/rpicopter/raspimjpeg
 
 !Thanks!
 
-This is the amraspimjpeg app only.
+amRaspiMJPEG is a copy of silvanmelchior's raspiMJPEG modified for test a stand-alone surveillance system.
 
 Run:
 ./amraspimjpeg 
