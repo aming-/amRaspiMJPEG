@@ -4,7 +4,7 @@ amRaspiMJPEG
 amRaspiMJPEG
 
 
-This is a copy taken from silvanmelchior userland library
+This is a copy taken from silvanmelchior userland library and rpicopter
 
 https://github.com/silvanmelchior/userland/tree/master/host_applications/linux/apps/raspicam
 
