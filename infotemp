@@ -1,0 +1,10 @@
+mmal_buffer_header_mem_lock(buffer);
+unsigned char* pointer = (unsigned char *)(buffer -> data);
+int w = PiCapture::width, h = PiCapture::height;
+Mat y(h, w, CV_8UC1, pointer);
+pointer = pointer + (h*w);
+Mat u(h/2, w/2, CV_8UC1, pointer);
+pointer = pointer + (h*w/4);
+Mat v(h/2, w/2, CV_8UC1, pointer);
+mmal_buffer_header_mem_unlock(buffer);
+mmal_buffer_header_release(buffer);
