@@ -8,3 +8,10 @@ pointer = pointer + (h*w/4);
 Mat v(h/2, w/2, CV_8UC1, pointer);
 mmal_buffer_header_mem_unlock(buffer);
 mmal_buffer_header_release(buffer);
+
+
+How To Disable The Red LED On The Pi Camera Module:
+
+To disable the red LED you simply need to add the following line to your config.txt file (sudo nano /boot/config.txt):
+
+disable_camera_led=1
